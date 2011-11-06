@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEF6092B14663B7100A6D234 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF6092A14663B7100A6D234 /* UIKit.framework */; };
+		DEF6092D14663B7100A6D234 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF6092C14663B7100A6D234 /* Foundation.framework */; };
+		DEF6092F14663B7100A6D234 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF6092E14663B7100A6D234 /* CoreGraphics.framework */; };
+		DEF6093514663B7100A6D234 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF6093314663B7100A6D234 /* InfoPlist.strings */; };
+		DEF6093714663B7100A6D234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF6093614663B7100A6D234 /* main.m */; };
+		DEF6093B14663B7100A6D234 /* ReadabilityParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF6093A14663B7100A6D234 /* ReadabilityParserAppDelegate.m */; };
+		DEF6093E14663B7100A6D234 /* ReadabilityParserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF6093D14663B7100A6D234 /* ReadabilityParserViewController.m */; };
+		DEF6094114663B7100A6D234 /* ReadabilityParserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF6093F14663B7100A6D234 /* ReadabilityParserViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEF6092614663B7100A6D234 /* iPhoneReadabilityParsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneReadabilityParsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF6092A14663B7100A6D234 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DEF6092C14663B7100A6D234 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEF6092E14663B7100A6D234 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DEF6093214663B7100A6D234 /* iPhoneReadabilityParsing-Info.plist */ = {isa = PBXFileReference; path = "iPhoneReadabilityParsing-Info.plist"; sourceTree = "<group>"; };
+		DEF6093414663B7100A6D234 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEF6093614663B7100A6D234 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEF6093814663B7100A6D234 /* iPhoneReadabilityParsing-Prefix.pch */ = {isa = PBXFileReference; path = "iPhoneReadabilityParsing-Prefix.pch"; sourceTree = "<group>"; };
+		DEF6093914663B7100A6D234 /* ReadabilityParserAppDelegate.h */ = {isa = PBXFileReference; path = ReadabilityParserAppDelegate.h; sourceTree = "<group>"; };
+		DEF6093A14663B7100A6D234 /* ReadabilityParserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadabilityParserAppDelegate.m; sourceTree = "<group>"; };
+		DEF6093C14663B7100A6D234 /* ReadabilityParserViewController.h */ = {isa = PBXFileReference; path = ReadabilityParserViewController.h; sourceTree = "<group>"; };
+		DEF6093D14663B7100A6D234 /* ReadabilityParserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadabilityParserViewController.m; sourceTree = "<group>"; };
+		DEF6094014663B7100A6D234 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReadabilityParserViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEF6092314663B7100A6D234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF6092B14663B7100A6D234 /* UIKit.framework in Frameworks */,
+				DEF6092D14663B7100A6D234 /* Foundation.framework in Frameworks */,
+				DEF6092F14663B7100A6D234 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEF6091B14663B7100A6D234 = {
+			isa = PBXGroup;
+			children = (
+				DEF6093014663B7100A6D234 /* iPhoneReadabilityParsing */,
+				DEF6092914663B7100A6D234 /* Frameworks */,
+				DEF6092714663B7100A6D234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF6092714663B7100A6D234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF6092614663B7100A6D234 /* iPhoneReadabilityParsing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF6092914663B7100A6D234 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF6092A14663B7100A6D234 /* UIKit.framework */,
+				DEF6092C14663B7100A6D234 /* Foundation.framework */,
+				DEF6092E14663B7100A6D234 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEF6093014663B7100A6D234 /* iPhoneReadabilityParsing */ = {
+			isa = PBXGroup;
+			children = (
+				DEF6093914663B7100A6D234 /* ReadabilityParserAppDelegate.h */,
+				DEF6093A14663B7100A6D234 /* ReadabilityParserAppDelegate.m */,
+				DEF6093C14663B7100A6D234 /* ReadabilityParserViewController.h */,
+				DEF6093D14663B7100A6D234 /* ReadabilityParserViewController.m */,
+				DEF6093F14663B7100A6D234 /* ReadabilityParserViewController.xib */,
+				DEF6093114663B7100A6D234 /* Supporting Files */,
+			);
+			path = iPhoneReadabilityParsing;
+			sourceTree = "<group>";
+		};
+		DEF6093114663B7100A6D234 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF6093214663B7100A6D234 /* iPhoneReadabilityParsing-Info.plist */,
+				DEF6093314663B7100A6D234 /* InfoPlist.strings */,
+				DEF6093614663B7100A6D234 /* main.m */,
+				DEF6093814663B7100A6D234 /* iPhoneReadabilityParsing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEF6092514663B7100A6D234 /* iPhoneReadabilityParsing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF6094414663B7100A6D234 /* Build configuration list for PBXNativeTarget "iPhoneReadabilityParsing" */;
+			buildPhases = (
+				DEF6092214663B7100A6D234 /* Sources */,
+				DEF6092314663B7100A6D234 /* Frameworks */,
+				DEF6092414663B7100A6D234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneReadabilityParsing;
+			productName = iPhoneReadabilityParsing;
+			productReference = DEF6092614663B7100A6D234 /* iPhoneReadabilityParsing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF6091D14663B7100A6D234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = KDLab;
+			};
+			buildConfigurationList = DEF6092014663B7100A6D234 /* Build configuration list for PBXProject "iPhoneReadabilityParsing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEF6091B14663B7100A6D234;
+			productRefGroup = DEF6092714663B7100A6D234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF6092514663B7100A6D234 /* iPhoneReadabilityParsing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEF6092414663B7100A6D234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF6093514663B7100A6D234 /* InfoPlist.strings in Resources */,
+				DEF6094114663B7100A6D234 /* ReadabilityParserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEF6092214663B7100A6D234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF6093714663B7100A6D234 /* main.m in Sources */,
+				DEF6093B14663B7100A6D234 /* ReadabilityParserAppDelegate.m in Sources */,
+				DEF6093E14663B7100A6D234 /* ReadabilityParserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEF6093314663B7100A6D234 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF6093414663B7100A6D234 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEF6093F14663B7100A6D234 /* ReadabilityParserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF6094014663B7100A6D234 /* en */,
+			);
+			name = ReadabilityParserViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEF6094214663B7100A6D234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEF6094314663B7100A6D234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEF6094514663B7100A6D234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneReadabilityParsing/iPhoneReadabilityParsing-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneReadabilityParsing/iPhoneReadabilityParsing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEF6094614663B7100A6D234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneReadabilityParsing/iPhoneReadabilityParsing-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneReadabilityParsing/iPhoneReadabilityParsing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEF6092014663B7100A6D234 /* Build configuration list for PBXProject "iPhoneReadabilityParsing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF6094214663B7100A6D234 /* Debug */,
+				DEF6094314663B7100A6D234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF6094414663B7100A6D234 /* Build configuration list for PBXNativeTarget "iPhoneReadabilityParsing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF6094514663B7100A6D234 /* Debug */,
+				DEF6094614663B7100A6D234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEF6091D14663B7100A6D234 /* Project object */;
+}
