@@ -9,6 +9,7 @@
 #import "ReadabilityParserAppDelegate.h"
 
 #import "ReadabilityParserViewController.h"
+#import "GGReadability.h"
 
 @implementation ReadabilityParserAppDelegate
 
@@ -48,11 +49,18 @@
      */
 }
 
+- (void)readability:(GGReadability *)readability didReceiveContents:(NSString *)contents {
+    NSLog(@"contents: %@", contents);
+}
+
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    /*
-     Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-     */
+    NSString *urlString = @"http://bats.blogs.nytimes.com/2011/10/28/world-series-game-7-rangers-vs-cardinals/?hp";
+    GGReadability *readabilityParser = [[GGReadability alloc] initWithURL:[NSURL URLWithString:urlString] 
+                                                                 delegate:self];
+    
+    [readabilityParser render];
+
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

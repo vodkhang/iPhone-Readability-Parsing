@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GGReadability.h"
 
 @class ReadabilityParserViewController;
 
-@interface ReadabilityParserAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ReadabilityParserAppDelegate : UIResponder <UIApplicationDelegate, GGReadabilityDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
