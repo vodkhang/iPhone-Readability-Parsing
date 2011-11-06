@@ -2,4 +2,4 @@ The project is a modified version for the MacOS project of https://github.com/cu
 
 Use at your own risks, but feel free to send me an email if you have any query. vodkhang@gmail.com or visit my blog at : vodkhang.com.
 
-This open source project is part of a new innovation project: hearie.com
+This open source project is part of a new innovation project: hearie.com. We are trying to reinforce 
